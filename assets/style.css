@@ -1,0 +1,116 @@
+* {
+  font-family:Consolas;
+}
+
+header {
+  padding: 2.5rem;
+  text-align: center;
+  background: rgb(39, 36, 36);
+
+
+}
+
+ nav {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+   width: 100%;
+  }
+
+nav a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  float: right;
+}
+nav a:hover {
+  background-color: rgb(39, 36, 36); /*changes the nav color when user go over the options with mouse*/
+
+}
+
+body {
+  line-height: 1.5;
+  color: white;
+  background-color: black;
+}
+  
+  div {
+    padding:1.5rem;
+  }
+
+  .ehsanImage {
+    width: 150px;
+    flex: 4;
+    border-radius: 50%;
+    border: 10px black;
+    float: left;
+}
+
+.container {
+  transition: all 0.5s ease-in-out;
+}
+
+.container-title {
+ /*creates overlap effect */
+ position: relative;
+ margin: -4rem 12 1.5rem 0;
+ padding: 0.5rem 1rem;
+ background-color:black;
+ color:white;
+ border: 2px solid black;
+ border-radius: 8px;
+ transition: all 0.5s ease-in-out;
+}
+
+/*shadow*/
+.container:hover .container-title {
+  box-shadow: inset 0px 0px 8px white, 0 0 15px white;
+}
+
+.workImage {
+  display: inline-block;
+  width: 600px;
+  height: 400px;
+  padding: 20px 20px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.workImage:hover {
+  width: 800px;
+  height: 600px;
+
+}
+
+.contact {
+  font: 5rem;
+}
+
+
+
+
+ 
+/*for screens smaller than 700px it reverse the color for body and header*/
+@media screen and (max-width: 700px) {
+  body{
+    background-color: rgb(39, 36, 36);
+  }
+  header {
+    background-color: black;
+  }
+  
+
+  
+  footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: rgb(39, 36, 36);
+    color: #fff;
+    margin-top: auto;
+  }
+  
