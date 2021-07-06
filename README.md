@@ -5,4 +5,4 @@
 [My GitHub Profile](https://github.com/ekhosr)
 
 
-[My Portfolio Live URL](git@github.com:ekhosr/Ehsan-Khosravi-Portfolio.git)
+[My Portfolio Live URL](https://git@github.com:ekhosr/Ehsan-Khosravi-Portfolio.git)
