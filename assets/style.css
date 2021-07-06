@@ -39,6 +39,17 @@ body {
     padding:1.5rem;
   }
 
+    
+  footer {
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    background: rgb(39, 36, 36);
+    color: #fff;
+    margin: 0 auto;
+  }
+
   .ehsanImage {
     width: 150px;
     flex: 4;
@@ -86,7 +97,9 @@ body {
 }
 
 .contact {
-  font: 5rem;
+  font-size: 2rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
@@ -103,14 +116,4 @@ body {
   }
   
 
-  
-  footer {
-    width: 100%;
-    bottom: 0;
-    padding: 20px;
-    text-align: center;
-    background: rgb(39, 36, 36);
-    color: #fff;
-    margin-top: auto;
-  }
   
